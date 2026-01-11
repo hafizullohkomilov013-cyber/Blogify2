@@ -1,12 +1,14 @@
 import React from "react";
-import Main from "../../components/Main";
+import Hero from "../../components/Hero";
+import WhyChoose from "../../components/WhyChoose";
 
 
 
 function HomePage() {
   return (
     <>
-        <Main/>
+        <Hero/>
+        <WhyChoose/>
     </>
   );
 }
