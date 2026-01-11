@@ -1,6 +1,7 @@
 import React from 'react'
 import BlogfyImg from "../../public/img/SVG.svg"
 import BarLinks from './BarLinks';
+import Button  from './Button';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -16,9 +17,7 @@ function Navbar() {
         <div className="hidden items-center justify-center gap-3 md:flex">
           <Link to="/">Home</Link>
           <Link to="/PostsPages">Posts</Link>
-          <div className="flex h-9 w-16 items-center justify-center rounded-xl bg-[#4346EF] text-white">
-            <a href="#">Login</a>
-          </div>
+          <Button variant="primary" > Login </Button>
         </div>
         <div
           onClick={() => {

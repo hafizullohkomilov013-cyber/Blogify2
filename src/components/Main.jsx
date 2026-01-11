@@ -6,6 +6,7 @@ import Development1 from "../../public/img/development1.png";
 import Development2 from "../../public/img/development2.png";
 import Development3 from "../../public/img/development3.png";
 import HeroImg from "../../public/img/HeroImg.png";
+import Button from "./Button";
 
 function Main() {
   return (
@@ -26,12 +27,12 @@ function Main() {
               and inspire others with your unique perspective.
             </p>
             <div className="btns-hero flex gap-4">
-              <button className="max-w-50 rounded-2xl bg-linear-65 from-[#4346EF] to-[#8524E5] pt-3 pr-7 pb-3 pl-7 text-white">
+              <Button variant={"secendery"}>
                 Explore Posts <i className="fa-solid fa-arrow-right"></i>
-              </button>
-              <button className="rounded-2xl bg-white pt-3 pr-7 pb-3 pl-7">
+              </Button>
+              <Button variant={"button3"}>
                 Get Started
-              </button>
+              </Button>
             </div>
           </div>
           <div>
