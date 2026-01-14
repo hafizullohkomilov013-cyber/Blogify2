@@ -1,6 +1,8 @@
 import React from "react";
 import BlogfyImg from "../../public/img/SVG.svg";
 
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className="mb-8 border-2 border-[#c7c7c74d] pt-12 pb-8">
@@ -18,9 +20,9 @@ function Footer() {
         <div>
           <h2 className="mb-4 text-[24px] font-bold">Quick Links</h2>
           <div className="flex flex-col gap-2.5 text-[#6B7280]">
-            <a href="#">Home</a>
-            <a href="#">Posts</a>
-            <a href="#">Login</a>
+            <Link to="/">Home</Link>
+            <Link to="/PostsPages">Posts</Link>
+            <Link> Login </Link>
           </div>
         </div>
         <div>

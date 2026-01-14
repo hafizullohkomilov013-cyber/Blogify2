@@ -2,7 +2,7 @@ import React from "react";
 
 
 function WhyChooseCard ({item}){
-    let {id, text,title, icon } = item
+    let { text,title, icon } = item
     
     return (
       <div className="w-full max-w-[384px] h-60 items-center justify-center rounded-2xl border border-gray-600 p-8">

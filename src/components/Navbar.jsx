@@ -19,12 +19,7 @@ function Navbar() {
           <Link to="/PostsPages">Posts</Link>
           <Button variant="primary" > Login </Button>
         </div>
-        <div
-          onClick={() => {
-            setOpen(!open);
-          }}
-          className="md:hidden"
-        >
+        <div onClick={() => {setOpen(!open);}} className="md:hidden">
           {open ? (
             <i class="fa-solid fa-x cursor-pointer text-2xl"></i>
           ) : (
